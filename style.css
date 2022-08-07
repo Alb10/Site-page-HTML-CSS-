@@ -1,0 +1,80 @@
+body, h1, h2 ,h3 ,h4,h5,h6,a,p{
+    margin: 0;
+    font-size: 30%;
+  font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+.header { 
+    font-size: 70px;
+    background-color: #f3b0e9;
+    background-image: url(https://d23gn3985hkc32.cloudfront.net/wp-content/uploads/2020/12/239231-Review-DEMPOIHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.header-title {
+    height: 20vh;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 50px; 
+    margin: auto;
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(192, 152, 162, 0.5);
+}
+.content {
+   font-size: 0;
+   /* background-color: #e3f3ff; */
+   width: 790px;
+   margin:100px auto 50px;
+   
+}
+.card {
+    width: 350px;
+    background-color:rgba(208, 155, 214, 0.5);
+    margin-bottom: 60px;
+    padding: 45px 45px 70px 45px;
+
+    display: inline-block;
+    margin-right: 90px;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+}
+.card-title {
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size:16px;
+}
+.card-image {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 25px;
+    
+}
+.no-right-margin {
+    margin-right: 0;
+} 
+.footer {
+    height: 200px;
+    background-color: rgb(167, 113, 113);
+    display: flex;
+}
+.footer-author {
+    font-size: 24px;
+    color: #fff;
+    margin: auto;
+}
